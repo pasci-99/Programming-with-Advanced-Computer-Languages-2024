@@ -15,7 +15,7 @@ Dataset: 600K US Housing Properties.csv from https://www.kaggle.com/datasets/pol
 
 This repository contains an R programming project for the course Skills: Programming with Advanced Computer Languages. The project investigates housing prices through hedonic regression models and spatial data analysis. It also features:
 - Exploratory Data Analysis to understand trends and relationships.
-- Regression Modeling for predictive insights into housing prices.
+- Regression Modeling to understand and predictive housing prices.
 - Interactive Visualizations and Maps to display spatial information and patterns.
 - Shiny Dashboard for user-friendly, interactive prediction of housing prices.
 
