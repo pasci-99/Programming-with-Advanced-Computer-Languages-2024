@@ -55,7 +55,6 @@ dataset_name <- "600K US Housing Properties.csv"
 #   - Copy the path to this folder and set it as the path below and run the code, to set it as your working directory.
 
 path <- "/Replace/This/With/The/Path/To/Your/Folder"  # Path to the Folder (e.g. HousingPriceAnalysis), not the File
-path <- "/Users/pascalsimon/Desktop/Final_Testrun"
 if (!dir.exists(path)) {
   stop("The specified working directory does not exist. Please check the path.")
 }
