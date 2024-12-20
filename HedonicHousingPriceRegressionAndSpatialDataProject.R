@@ -645,13 +645,8 @@ create_and_export_distance_map <- function(data, center_lon, center_lat, path = 
   return(map)
 }
 
-
 create_and_export_distance_map(Single_Chicago, center_lon = -87.630, center_lat = 41.878)
 create_and_export_distance_map(Single_Houston, center_lon = -95.37, center_lat = 29.76)
-
-
-
-
 
 
 # Function to create and export Leaflet map based on distance to closest park
@@ -756,18 +751,10 @@ create_and_export_park_distance_map <- function(data, bbox, path = getwd()) {
   return(map)
 }
 
-
-
 # Create and export the map for Single_Chicago
 create_and_export_park_distance_map(Single_Chicago, chicago_bbox)
 # Create and export the map for Single_Houston
 create_and_export_park_distance_map(Single_Houston, houston_bbox)
-
-
-
-
-
-
 
 
 # Function to create and export Leaflet map based on distance to closest shop
